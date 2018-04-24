@@ -1,0 +1,16 @@
+.Tilt {
+  background: none;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.text {
+  color: #AFE2F1;
+  font-family: 'Cabin Sketch', cursive, sans-serif;
+}
+
+.title {
+  letter-spacing: 7px;
+}
