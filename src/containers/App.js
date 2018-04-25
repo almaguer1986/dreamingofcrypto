@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Particles from 'react-particles-js';
-import Navigation from '../components/Navigation/Navigation';
 import Home from './Home/Home';
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';

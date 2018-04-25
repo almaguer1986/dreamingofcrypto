@@ -3,7 +3,7 @@ import './Cards.css';
 
 const Cards = () => {
   return (<div>
-    <h1 className="f3 f1-m f-headline-l theme">Crypto 101</h1>
+    <h1 className="f3 f1-m f-headline-l theme mb4">Crypto 101</h1>
     <div className="flex-l w-100">
 
       <article className="mw5 center br3 pa3 pa4-ns mv3 ba b--light-blue bg-black-20">

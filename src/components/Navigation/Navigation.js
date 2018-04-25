@@ -8,7 +8,7 @@ import './Navigation.css';
 const Navigation = () => {
   return (
 
-      <nav className="db w-100 border-box fixed z-5 Nav">
+      <nav className="db w-100 border-box z-5 Nav">
       <ul className="nav">
         <li className="link dtc-l v-mid dim w-100-ns w-25-l tc tl-l mb2 mb0-l fl-l" title="Home">
           <Link to="/"><img src={logo} alt={"logo"} className="dib-l w3 h3"/></Link>
