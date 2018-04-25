@@ -7,7 +7,7 @@ const Hero = () => {
   return (<header>
     <div className="cover bg-left bg-center-l">
       <div className='logo tc-1'>
-        <Tilt className="Tilt mt6" options={{
+        <Tilt className="Tilt mt7 mt6-m mt6-l pt5 pt1-l" options={{
             max: 50
           }} style={{
             height: 130,
@@ -26,7 +26,7 @@ const Hero = () => {
           Welcome to Dreaming Of Crypto! We strive to be your one stop crypto stop. Educating those just starting out and keeping the crypto vets updated on the latest and greatest in blockchain technology.
         </h2>
         <p className="mb3 f4 white">
-          Getting started with crypto can be a little sketchy at first. You will literally be digitizing your hard earned dollars. We aim to bring you the safest and most reliable crypto information available. 
+          Getting started with crypto can be a little sketchy at first. You will literally be digitizing your hard earned dollars. We aim to bring you the safest and most reliable crypto information available.
         </p>
       </div>
     </div>
