@@ -29,7 +29,7 @@ const Navigation = () => {
           <li className="link dim green f3 mr3 mr4-l pt2 dib-m dib-l" title="Earn Crypto">
             <Link to="/earn">Earn Crypto</Link>
           </li>
-          <li className="link dim red f3 pt2 dib-m dib-l" title="Hot TGE's">
+          <li className="link dim red f3 pt2 dib-m dib-l mr4" title="Hot TGE's">
             <Link to="/hottge">Hot TGE's</Link>
           </li>
         </div>

@@ -25,10 +25,10 @@ const Hero = () => {
           DREAMING OF CRYPTO
         </h1>
         <h2 className="fw1 f3 mt3 white">
-          Welcome to Dreaming Of Crypto! We strive to be your one stop crypto stop. Educating those just starting out and keeping the crypto vets updated on the latest and greatest in blockchain technology.
+          Welcome!
         </h2>
         <p className="f4 white mb5">
-          Getting started with crypto can be a little sketchy at first. You will literally be digitizing your hard earned dollars. We aim to bring you the safest and most reliable crypto information available.
+          Getting started with crypto can be a little sketchy at first. Here you will learn how to crypto like a pro and more importantly, stay safe while doing it!
         </p>
       </div>
 

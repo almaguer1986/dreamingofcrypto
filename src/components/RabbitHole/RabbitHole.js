@@ -1,9 +1,10 @@
 import React from 'react';
+import Header from '../Header/Header';
 
 const RabbitHole = () => {
   return (
     <div className='pt3 db mt3 mt4-m mt4-l'>
-      <h1>Welcome to the RabbitHole page</h1>
+      <Header name="Down The Rabbit Hole"/>
     </div>
   )
 }

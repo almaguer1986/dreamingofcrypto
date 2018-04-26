@@ -8,7 +8,7 @@ const Banner = () => {
         <div className="pa3 pa4-ns dtc-ns v-mid">
           <div>
             <h2 className="fw4 theme mt0 mb3">
-              ****Our Favorite Projects****
+              ***Featured Projects****
             </h2>
             <p className="white measure lh-copy mv0">
               Take a look at our favorite projects and see what they are all about.
