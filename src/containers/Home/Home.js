@@ -27,7 +27,7 @@ class Home extends Component {
       <Route path="/" exact component={Banner} />
       <Route path="/about" exact component={About} />
       <Route path="/rabbithole" exact component={RabbitHole} />
-      <Route path="/gettingstarted" exact component={GettingStarted} />
+      <Route path="/walletguide" exact component={GettingStarted} />
       <Route path="/safety" exact component={Safety} />
       <Route path="/earn" exact component={Earn} />
       <Route path="/hottge" exact component={HotTge} />

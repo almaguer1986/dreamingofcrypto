@@ -21,7 +21,7 @@ const Navigation = () => {
             <Link to="/rabbithole">The Rabbit Hole</Link>
           </li>
           <li className="link dim yellow f3 mr3 mr4-l pt2 dib-m dib-l" title="Getting Started">
-            <Link to="/gettingstarted">Getting Started</Link>
+            <Link to="/walletguide">Wallet Guide</Link>
           </li>
           <li className="link dim yellow f3 mr3 mr4-l pt2 dib-m dib-l" title="Safety">
             <Link to="/safety">Safety</Link>
