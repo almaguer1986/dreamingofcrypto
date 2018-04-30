@@ -3,15 +3,15 @@ import React from 'react';
 const Footer = () => {
   return (<footer className="mt3 pv2 ph2 tc-l bg-black-40">
     <div className="db center">
-      <div className="pv4 pa2 w-100 dib-l">
+      <div className="w-100 dib-l">
         <p className="f3 light-silver">
           <h2 className="pt0 mt0 red underline">Disclaimer</h2>This is an informative site geared towards educating those interested about the crypto space</p>
       </div>
-      <div className="pv4 pa2 w-100 w-50-l dib-l">
+      <div className="w-100 w-50-l dib-l">
         <p className="light-silver f3">
           <h2 className="pt0 mt0 blue underline">To Caveat</h2>All information found on this page should be cross referenced for additional accuracy. Check trusted sources.</p>
       </div>
-      <div className="pv4 pa2 w-100 w-50-l dib-l mt0">
+      <div className="w-100 w-50-l dib-l mt0">
         <p className="light-silver f3">
           <h2 className="pt0 mt0 green underline">Contact</h2>For any issues regarding information on this site please email: <a className="link underline theme f4 f3-m f3-l" href="mailto:support@dreamingofcrypto.com">support@dreamingofcrypto.com</a></p>
       </div>
