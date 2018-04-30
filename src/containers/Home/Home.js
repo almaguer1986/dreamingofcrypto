@@ -8,7 +8,7 @@ import Banner from '../../components/Banner/Banner';
 import About from '../../components/About/About';
 import Earn from '../../components/Earn/Earn';
 import Safety from '../../components/Safety/Safety';
-import GettingStarted from '../../components/GettingStarted/GettingStarted';
+import WalletGuide from '../../components/WalletGuide/WalletGuide';
 import RabbitHole from '../../components/RabbitHole/RabbitHole';
 import HotTge from '../../components/HotTge/HotTge';
 import { Route } from 'react-router-dom';
@@ -27,7 +27,7 @@ class Home extends Component {
       <Route path="/" exact component={Banner} />
       <Route path="/about" exact component={About} />
       <Route path="/rabbithole" exact component={RabbitHole} />
-      <Route path="/walletguide" exact component={GettingStarted} />
+      <Route path="/walletguide" exact component={WalletGuide} />
       <Route path="/safety" exact component={Safety} />
       <Route path="/earn" exact component={Earn} />
       <Route path="/hottge" exact component={HotTge} />
