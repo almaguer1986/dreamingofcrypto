@@ -4,7 +4,7 @@ import Header from '../Header/Header';
 
 const WalletGuide = () => {
   return (<div className='pt3 db mt3 mt4-m mt4-l'>
-    <Header name="Getting Started With a Wallet Guide"/>
+    <Header name="Crypto Wallet Guide"/>
     <Article />
   </div>)
 }

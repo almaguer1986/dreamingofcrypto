@@ -13,19 +13,17 @@ import './Article.css'
 const Article = () => {
   return (<article className="dib">
     <header className="fn fl-ns w-100">
-      <h1 className="f1 mb3 pt3 theme">
-        Creating A Wallet
-      </h1>
       <h2 className="f3 white lh-title pa2">
-        This is a guide to get you started with a MEW (MyEtherWallet), MetaMask and the Enjin mobile Wallet App.
+        This is a guide to get you started with a MEW (MyEtherWallet), MetaMask and the Enjin mobile Wallet App. With your newly acquired wallet, you will be one step closer to being able to participate in airdrops!
       </h2>
       <time className="f6 ttu tracked gray">
         April 2018
       </time>
     </header>
     <div className="dib w-30-l w-60-m w-80 white">
-      <p className="f2 lh-copy measure mt0-ns pt4 mb1 underline theme">
+      <p className="f2 lh-copy measure mt0-ns pt4 mb1 theme">
         Creating a MEW
+        <hr className="w-100" />
       </p>
       <ol className="f3 lh-copy measure tl">
         <li className="pb4">
@@ -80,9 +78,10 @@ const Article = () => {
     <h1 className="f3 yellow pa2">Congradulations! You now have an Ether Wallet</h1>
     </div>
     <div className="dib w-30-l w-60-m w-80 white pb5">
-      <p className="f2 lh-copy measure mt0-ns pt2 mb1 underline theme">
+      <p className="f2 lh-copy measure mt0-ns pt2 mb1 theme">
         Getting Started With Metamask
       </p>
+      <hr className="w-100" />
       <ol className="f3 lh-copy measure tl">
         <li className="pb4">
           Download the Metamask Browser Extension
@@ -135,11 +134,11 @@ const Article = () => {
         <li>-Convenient-</li>
       </ol>
       <p className="pb3 f2-l f2">Android
-      <a className="flex db-m db-l pt1 link w-40 center" href="https://enj.li/androidwallet"> Android Wallet Download</a>
+      <a className="flex db-m db-l pt1 link w-40 center underline theme dim" href="https://enj.li/androidwallet"> Android Wallet Download</a>
       </p>
 
       <p className="pb4 f2-l f2">ios
-      <a className="flex db-l db-m pt1 link w-40 center" href="https://t.co/3ezK7KI3Vd"> ios Wallet Download</a>
+      <a className="flex db-l db-m pt1 link w-40 center underline theme dim" href="https://t.co/3ezK7KI3Vd"> ios Wallet Download</a>
       </p>
     </div>
 

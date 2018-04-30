@@ -8,7 +8,7 @@ const Cards = () => {
 
       <article className="mw5 center br3 pa4  mv3 ba b--light-blue bg-black-20">
         <div className="dib">
-          <p className="f3 dim yellow ma0 pointer" title="Learn More About Privacy Crypto">
+          <p className="f3 dim theme underline ma0 pointer" title="Learn More About Privacy Crypto">
             -Security-
           </p>
         </div>
@@ -24,7 +24,7 @@ const Cards = () => {
 
       <article className="mw5 center br3 pa4  mv3 ba b--light-blue bg-black-20">
         <div className="dib">
-          <p className="link f3 dim yellow ma0 pointer" title="Learn More About Privacy Crypto">
+          <p className="link f3 dim theme underline ma0 pointer" title="Learn More About Privacy Crypto">
             -Utility-
           </p>
         </div>
@@ -40,7 +40,7 @@ const Cards = () => {
 
       <article className="mw5 center br3 pa4  mv3 ba b--light-blue bg-black-20">
         <div className="dib">
-          <p className="link f3 dim yellow ma0 pointer" title="Learn More About Privacy Crypto">
+          <p className="link f3 dim theme underline ma0 pointer" title="Learn More About Privacy Crypto">
             -Platform-
           </p>
 
@@ -57,7 +57,7 @@ const Cards = () => {
 
       <article className="mw5 center br3 pa4  mv3 ba b--light-blue bg-black-20">
         <div className="dib">
-          <p className="link f3 dim yellow ma0 pointer" title="Learn More About Privacy Crypto">
+          <p className="link f3 dim theme underline ma0 pointer" title="Learn More About Privacy Crypto">
             -Privacy-
           </p>
         </div>
