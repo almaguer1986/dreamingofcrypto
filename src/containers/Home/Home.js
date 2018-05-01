@@ -9,8 +9,8 @@ import About from '../../components/About/About';
 import Earn from '../../components/Earn/Earn';
 import Safety from '../../components/Safety/Safety';
 import WalletGuide from '../../components/WalletGuide/WalletGuide';
-import RabbitHole from '../../components/RabbitHole/RabbitHole';
-import HotTge from '../../components/HotTge/HotTge';
+import HowItStarted from '../../components/HowItStarted/HowItStarted';
+import Featured from '../../components/Featured/Featured';
 import { Route } from 'react-router-dom';
 import './Home.css';
 
@@ -26,11 +26,11 @@ class Home extends Component {
       <Route path="/" exact component={Cards} />
       <Route path="/" exact component={Banner} />
       <Route path="/about" exact component={About} />
-      <Route path="/rabbithole" exact component={RabbitHole} />
+      <Route path="/howitstarted" exact component={HowItStarted} />
       <Route path="/walletguide" exact component={WalletGuide} />
       <Route path="/safety" exact component={Safety} />
       <Route path="/earn" exact component={Earn} />
-      <Route path="/hottge" exact component={HotTge} />
+      <Route path="/featured" exact component={Featured} />
       <Footer />
     </div>);
   }

@@ -14,23 +14,23 @@ const Navigation = () => {
           <Link to="/"><img src={logo} alt={"logo"} className="dib-l w3 h3"/></Link>
         </li>
         <div className="db-m dt v-mid w-100 w-75-l tc pt2">
-          <li className="link dim yellow f3 mr3 mr4-l pt2 dib-m dib-l" title="About">
+          <li className="link dim theme underline f3 mr3 mr4-l pt2 dib-m dib-l" title="About">
             <Link to="/about">About</Link>
           </li>
-          <li className="link dim yellow f3 mr3 mr4-l pt2 dib-m dib-l" title="The Rabbit Hole">
-            <Link to="/rabbithole">The Rabbit Hole</Link>
+          <li className="link dim theme underline f3 mr3 mr4-l pt2 dib-m dib-l" title="The Rabbit Hole">
+            <Link to="/howitstarted">How it Started</Link>
           </li>
-          <li className="link dim yellow f3 mr3 mr4-l pt2 dib-m dib-l" title="Getting Started">
-            <Link to="/walletguide">Wallet Guide</Link>
-          </li>
-          <li className="link dim yellow f3 mr3 mr4-l pt2 dib-m dib-l" title="Safety">
+          <li className="link dim theme underline f3 mr3 mr4-l pt2 dib-m dib-l" title="Safety">
             <Link to="/safety">Safety</Link>
           </li>
-          <li className="link dim green f3 mr3 mr4-l pt2 dib-m dib-l" title="Earn Crypto">
+          <li className="link dim theme underline f3 mr3 mr4-l pt2 dib-m dib-l" title="Getting Started">
+            <Link to="/walletguide">Wallet Guide</Link>
+          </li>
+          <li className="link dim green underline f3 mr3 mr4-l pt2 dib-m dib-l" title="Earn Crypto">
             <Link to="/earn">Earn Crypto</Link>
           </li>
-          <li className="link dim red f3 pt2 dib-m dib-l mr4" title="Hot TGE's">
-            <Link to="/hottge">Hot TGE's</Link>
+          <li className="link dim blue underline f3 pt2 dib-m dib-l mr4" title="Hot TGE's">
+            <Link to="/featured">Featured Projects</Link>
           </li>
         </div>
       </ul>

@@ -13,7 +13,7 @@ const Footer = () => {
       </div>
       <div className="w-100 w-50-l dib-l mt0">
         <p className="light-silver f3">
-          <h2 className="pt0 mt0 green underline">Contact</h2>For any issues regarding information on this site please email: <a className="link underline theme f4 f3-m f3-l" href="mailto:support@dreamingofcrypto.com">support@dreamingofcrypto.com</a></p>
+          <h2 className="pt0 mt0 green underline">Contact</h2>For any issues regarding information on this site please email: <address><a className="link underline theme f4 f3-m f3-l" href="mailto:support@dreamingofcrypto.com">support@dreamingofcrypto.com</a></address></p>
       </div>
     </div>
 
