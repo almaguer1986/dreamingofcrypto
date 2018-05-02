@@ -8,9 +8,10 @@ import meta3 from '../../../images/meta-3.png';
 import meta4 from '../../../images/meta-4.png';
 import meta5 from '../../../images/meta-5.png';
 import enj from '../../../images/enjin.PNG';
+import ImageZoom from 'react-medium-image-zoom';
 import './Article.css'
 
-const Article = () => {
+const Article = (props) => {
   return (<article className="dib">
     <header className="fn fl-ns w-100">
       <h2 className="f3 white lh-title pa2">
@@ -46,7 +47,19 @@ const Article = () => {
         <li className="pt3 pb4">
           Enter a Password (Don't Forget It!) and Click "Create Wallet"
         </li>
-        <img src={mew1} alt={"mew-1"} className="pb4"/>
+        <ImageZoom
+          image={{
+            src: mew1,
+            alt: 'mew1',
+            className: 'pb3',
+            style: { width: '20em' }
+          }}
+          zoomImage={{
+            src: mew1,
+            alt: 'mew1',
+            style: { width: '50em' }
+          }}
+        />
         <li className="pb4">
           Click the Blue Button "Download Keystore File (UTC / JSON)"
           <br />**Save File to USB**
@@ -67,11 +80,35 @@ const Article = () => {
             </li>
           </ul>
         </li>
-        <img src={mew2} alt={"mew-2"} className="pb4"/>
+        <ImageZoom
+          image={{
+            src: mew2,
+            alt: 'mew2',
+            className: 'pb3',
+            style: { width: '20em' }
+          }}
+          zoomImage={{
+            src: mew2,
+            alt: 'mew2',
+            style: { width: '50em' }
+          }}
+        />
         <li className="pb4">
           Once inside your wallet you will find your public key
         </li>
-        <img src={mew3} alt={"mew-3"}/>
+        <ImageZoom
+          image={{
+            src: mew3,
+            alt: 'mew3',
+            className: 'pb0',
+            style: { width: '20em' }
+          }}
+          zoomImage={{
+            src: mew3,
+            alt: 'mew3',
+            style: { width: '50em' }
+          }}
+        />
       </ol>
     </div>
     <div>
@@ -88,19 +125,66 @@ const Article = () => {
         <br />
           <span className="yellow">The latest Chrome, firfox and Brave browsers all have metamask Extensions</span>
         </li>
-          <img src={meta1} alt={"meta1"} className="pb4"/>
+        <ImageZoom
+          image={{
+            src: meta1,
+            alt: 'meta1',
+            className: 'pb4',
+            style: { width: '20em' }
+          }}
+          zoomImage={{
+            src: meta1,
+            alt: 'meta1',
+            style: { width: '50em' }
+          }}
+        />
+
         <li className="pb3">
           Open the extension, Navigate through the Agreement
         </li>
-          <img src={meta2} alt={"meta2"} className="pb4 vh-50 db center"/>
+        <ImageZoom
+          image={{
+            src: meta2,
+            alt: 'meta2',
+            className: 'pb4 vh-50 db center'
+          }}
+          zoomImage={{
+            src: meta2,
+            alt: 'meta2',
+            style: { width: '50em' }
+          }}
+        />
         <li className="pt3 pb4">
           Enter a Password (Don't Forget It!) and Click "Create"
         </li>
-        <img src={meta3} alt={"meta3"} className="pb4 vh-50 db center"/>
+        <ImageZoom
+          image={{
+            src: meta3,
+            alt: 'meta3',
+            className: 'pb4 vh-50 db center'
+          }}
+          zoomImage={{
+            src: meta3,
+            alt: 'meta3',
+            style: { width: '50em' }
+          }}
+        />
         <li className="pb4">
           You will see your Seed Phrase for your wallet
         </li>
-        <img src={meta4} alt={"meta4"} className="pb4 vh-50 db center"/>
+        <ImageZoom
+          image={{
+            src: meta4,
+            alt: 'meta4',
+            className: 'pb4 vh-50 db center'
+          }}
+          zoomImage={{
+            src: meta4,
+            alt: 'meta4',
+            style: { width: '50em' }
+          }}
+        />
+
         <span className="yellow"> Copy this phrase down. You can recover your wallet on different browsers and computers using this. Keep this safe </span>
         <li className="pb4 pt4">
           Once you have copied and or saved your seed file. You will now be inside your metamask.
@@ -109,7 +193,18 @@ const Article = () => {
         <li className="pb4">
           "Copy Address to clipboard" Will copy your public address so you can paste where needed
         </li>
-  <img src={meta5} alt={"meta5"} className="pb4 vh-50 db center"/>
+        <ImageZoom
+          image={{
+            src: meta5,
+            alt: 'meta5',
+            className: 'pb4 vh-50 db center'
+          }}
+          zoomImage={{
+            src: meta5,
+            alt: 'meta5',
+            style: { width: '50em' }
+          }}
+        />
         <div className="flex items-center tc justify-center pa3 bg-black-60 green br4">
           <svg className="w2" data-icon="info" viewBox="0 0 32 32" style={{fill: "currentcolor"}}>
             <title>
@@ -142,9 +237,9 @@ const Article = () => {
       </p>
     </div>
 
-    <div className="theme f3 f2-m f2-l w-80 db center">
+    <div className="white f3 f2-m f2-l w-80 db center">
       <p>There is a plethora of other wallets out there supporting different blockchains. Whichever wallets you choose to go with, the folowing are the universal rules which you should practice to keep your tokens safe</p>
-      <div className="w-60 db center ba bw2 w-80 mt5 b--yellow br3">
+      <div className="w-60 db center ba bw2 w-80 mt5 b--black-20 br3 shadow-5">
       <ul className="list pa3">
         <li className="pb3"><span className="green pb2">Public Addresses are safe to broadcast and share</span><br />AND<br /><span className="red pt2">Passphrases and Private keys should be thought of as the keys to your vault. Dont lose them</span></li>
         <li className="pb3 white dim">Make backup copies of keys and passphrases</li>
