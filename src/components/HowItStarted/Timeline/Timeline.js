@@ -15,18 +15,18 @@ const Timeline = () => {
     <div className="fn fl-ns w-50-ns">
       <p className="lh-copy measure mt4 f3 white mt0-ns">
         The beginings of bitcoin date back to January 2009. The technology and principles used to create bitcoin has been around since 1980's. Satoshi Nakamoto was the one who connected the dots.</p>
-        <p className="lh-copy measure mt4 f3 white mt0-ns">With the bitcoin network now a reality, Satoshi was able to mine the first block of bitcoins which had a reward of 50 bitcoins. The first block mined is known as the genessis block and comes with a message that was left inside of the blocks arbitrary data,
+        <p className="lh-copy measure mt4 f3 white mt0-ns">When the bitcoin network became a reality, Satoshi was able to mine the first block of bitcoin which had a reward of 50 bitcoins. The first block mined is known as the genessis block and comes with a message that was left inside of the blocks arbitrary data,
           <blockquote className="athelas">
             <p className="f5 f4-m f3-l lh-copy measure mt0 theme i">
               "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks".
             </p>
           </blockquote>
         </p>
-        <p className="lh-copy measure mt4 f3 white mt0-ns">The message serves two purposes, the first is as a timestamp to prove when the first block was mined and the second being that the bailouts were cause for creation.</p>
+        <p className="lh-copy measure mt4 f3 white mt0-ns">The message serves two purposes, the first serves as a timestamp to prove when the first block was mined and the second being that the bank bailouts were cause for creation.</p>
           <p className="lh-copy measure mt4 f3 white mt0-ns">No one has ever seen Satoshi in person, Satoshi only existed in the digital world and left the world his creation, bitcoin.</p>
 
       <p className="lh-copy measure pt1 f3 white">
-        One of the few parting quotes Satoshi left the world with before he vanished.
+        Satoshi was able to coordinate with Gavin Andresen and Jeff Garzik to help develop and maintain the source code.
 
         <blockquote className="athelas black-90 bl bw2 b--white-20">
           <p className="f5 f4-m f3-l lh-copy measure mt0 theme i">
