@@ -7,7 +7,7 @@ const Electroneum = () => {
       <h1 className="f3-l f3-m f4 theme tracked-mega w-50 fl pl1 pl3-l pl3-m">
         Electroneum
       </h1>
-    <a href="https://electroneum.com/" target="_blank" className="w-50"><img src={electroneum} alt={"electroneum"} className="h2 mt2 pt1-l fr pr3 fn-m fn-l"/></a>
+    <a href="https://electroneum.com/" rel="noopener noreferrer" target="_blank" className="w-50"><img src={electroneum} alt={"electroneum"} className="h2 mt2 pt1-l fr pr3 fn-m fn-l"/></a>
     </div>
 
 
@@ -22,14 +22,14 @@ const Electroneum = () => {
 
       <p className="f6 f5-ns lh-copy tl measure white">
         Current Price :
-        <a className="link theme dim underline pl1" target="_blank" href="https://coinmarketcap.com/currencies/electroneum/">Found Here</a>
+        <a className="link theme dim underline pl1" rel="noopener noreferrer" target="_blank" href="https://coinmarketcap.com/currencies/electroneum/">Found Here</a>
       </p>
       <p className="f6 f5-ns lh-copy tl measure white">
         Exchanges : Kucoin, Cryptopia
       </p>
       <p className="f6 f5-ns lh-copy tl measure white">
         Android -
-        <a className="link theme dim underline pl1" target="_blank" href="https://play.google.com/store/apps/details?id=com.electroneum.mobile">Download Beta Electroneum for Android</a>
+        <a className="link theme dim underline pl1" rel="noopener noreferrer" target="_blank" href="https://play.google.com/store/apps/details?id=com.electroneum.mobile">Download Beta Electroneum for Android</a>
       </p>
       <p className="f6 f5-ns lh-copy tl measure white">
         ios - <span className="silver">In Development</span>

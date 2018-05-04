@@ -37,8 +37,8 @@ const Timeline = () => {
           </cite>
         </blockquote>
       </p>
-      <p className="lh-copy measure mt4 f3 white pt3">You can see Satoshi's last sign of life <a className="dim white link underline" target="_blank" href="https://sourceforge.net/p/bitcoin/mailman/message/26744510/">Here</a></p>
-      <p className="lh-copy measure f3 white mt0 pt0">You can find satoshi's bitcoin talk profile <a className="dim white link underline" target="_blank" href="https://bitcointalk.org/index.php?action=profile;u=3">Here</a></p>
+      <p className="lh-copy measure mt4 f3 white pt3">You can see Satoshi's last update to Bitcoin (0.3.19)<a className="dim theme link underline" rel="noopener noreferrer" target="_blank" href="https://sourceforge.net/p/bitcoin/mailman/message/26744510/">Here</a></p>
+      <p className="lh-copy measure f3 white mt0 pt0">You can find Satoshi's bitcoin talk profile <a className="dim theme link underline" rel="noopener noreferrer" target="_blank" href="https://bitcointalk.org/index.php?action=profile;u=3">Here</a></p>
     </div>
   </article>)
 }

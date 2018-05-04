@@ -7,7 +7,7 @@ const Storm = () => {
       <h1 className="f3 theme tracked-mega w-50 fl">
         Storm Play
       </h1>
-    <a href="https://stormtoken.com/" target="_blank" className="w-50"><img src={storm} alt={"storm"} className="mt2-m mt2-l mt3 pt1 pt0-m pt0-l"/></a>
+    <a href="https://stormtoken.com/" rel="noopener noreferrer" target="_blank" className="w-50"><img src={storm} alt={"storm"} className="mt2-m mt2-l mt3 pt1 pt0-m pt0-l"/></a>
     </div>
 
 
@@ -22,14 +22,14 @@ const Storm = () => {
 
       <p className="f6 f5-ns lh-copy tl measure">
         Current Price :
-        <a className="link theme dim underline pl1" target="_blank" href="https://coinmarketcap.com/currencies/storm/">Found Here</a>
+        <a className="link theme dim underline pl1" rel="noopener noreferrer" target="_blank" href="https://coinmarketcap.com/currencies/storm/">Found Here</a>
       </p>
       <p className="f6 f5-ns lh-copy tl measure">
         Exchanges : Binance, Upbit, HitBTC
       </p>
       <p className="f6 f5-ns lh-copy tl measure">
         Android -
-        <a className="link theme dim underline pl1" target="_blank" href="https://goo.gl/U4c1GJ">Download Storm Play Android</a>
+        <a className="link theme dim underline pl1" rel="noopener noreferrer" target="_blank" href="https://goo.gl/U4c1GJ">Download Storm Play Android</a>
       </p>
       <p className="f6 f5-ns lh-copy tl measure">
         ios - <span className="silver">In Development</span>

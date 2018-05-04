@@ -7,7 +7,7 @@ const Dentacoin = () => {
       <h1 className="f3-l f3-m f4 theme tracked-mega w-50 fl pl2 pr4">
         Dentacoin
       </h1>
-    <a href="https://dentacoin.com/" target="_blank" className="w-50"><img src={dentacoin} alt={"dentacoin"} className="h2 mt1 mt2-l mt2-m pt1"/></a>
+    <a href="https://dentacoin.com/" rel="noopener noreferrer" target="_blank" className="w-50"><img src={dentacoin} alt={"dentacoin"} className="h2 mt1 mt2-l mt2-m pt1"/></a>
     </div>
 
 
@@ -22,14 +22,14 @@ const Dentacoin = () => {
 
       <p className="f6 f5-ns lh-copy tl measure">
         Current Price :
-        <a className="link theme dim underline pl1" target="_blank" href="https://coinmarketcap.com/currencies/dentacoin/">Found Here</a>
+        <a className="link theme dim underline pl1" rel="noopener noreferrer" target="_blank" href="https://coinmarketcap.com/currencies/dentacoin/">Found Here</a>
       </p>
       <p className="f6 f5-ns lh-copy tl measure">
         Exchanges : HitBTC, Cryptopia, CoinExchange
       </p>
       <p className="f6 f5-ns lh-copy tl measure">
         Android -
-        <a className="link theme dim underline pl1" target="_blank" href="https://play.google.com/store/apps/details?id=com.dentacoin.dentacare&hl=en">Download Dentacare Android</a>
+        <a className="link theme dim underline pl1" rel="noopener noreferrer" target="_blank" href="https://play.google.com/store/apps/details?id=com.dentacoin.dentacare&hl=en">Download Dentacare Android</a>
       </p>
       <p className="f6 f5-ns lh-copy tl measure">
         ios - <span className="silver">In Development</span>
