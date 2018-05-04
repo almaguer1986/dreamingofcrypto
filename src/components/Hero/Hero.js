@@ -27,8 +27,11 @@ const Hero = () => {
         <h2 className="fw1 f3 mt3 white">
           Welcome!
         </h2>
-        <p className="f4 white mb5">
+        <p className="f4 white">
           Getting started with crypto can be a little sketchy at first. Here you will learn how to crypto like a pro and more importantly, stay safe while doing it!
+        </p>
+        <p className="f4 white mb5">
+
         </p>
       </div>
 

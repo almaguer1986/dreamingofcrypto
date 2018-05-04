@@ -90,7 +90,7 @@ const Article = (props) => {
           zoomImage={{
             src: mew2,
             alt: 'mew2',
-            style: { width: '50em' }
+            style: { width: '50em'}
           }}
         />
         <li className="pb4">
@@ -135,7 +135,7 @@ const Article = (props) => {
           zoomImage={{
             src: meta1,
             alt: 'meta1',
-            style: { width: '50em' }
+            style: { width: '50em', }
           }}
         />
 
@@ -151,7 +151,7 @@ const Article = (props) => {
           zoomImage={{
             src: meta2,
             alt: 'meta2',
-            style: { width: '50em' }
+            style: { width: '60em', }
           }}
         />
         <li className="pt3 pb4">
@@ -166,7 +166,7 @@ const Article = (props) => {
           zoomImage={{
             src: meta3,
             alt: 'meta3',
-            style: { width: '50em' }
+            style: { width: '60em' }
           }}
         />
         <li className="pb4">
@@ -181,7 +181,7 @@ const Article = (props) => {
           zoomImage={{
             src: meta4,
             alt: 'meta4',
-            style: { width: '50em' }
+            style: { width: '60em' }
           }}
         />
 
@@ -202,7 +202,7 @@ const Article = (props) => {
           zoomImage={{
             src: meta5,
             alt: 'meta5',
-            style: { width: '50em' }
+            style: { width: '60em' }
           }}
         />
         <div className="flex items-center tc justify-center pa3 bg-black-60 green br4">
