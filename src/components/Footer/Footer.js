@@ -18,27 +18,27 @@ const Footer = () => {
     </div>
 
     <div className="w-100">
-      <a className="no-underline ba b--light-blue near-white bg-animate bg-black-20 hover-bg-gray inline-flex items-center ma2 tc br2 pa2" href="https://www.facebook.com/DreamOfCrypto/" title="Facebook">
+      <a rel="noopener noreferrer" target="_blank" className="no-underline ba b--light-blue near-white bg-animate bg-black-20 hover-bg-gray inline-flex items-center ma2 tc br2 pa2" href="https://www.facebook.com/DreamOfCrypto/" title="Facebook">
 
         <span className="f6 p2">
           Facebook
         </span>
       </a>
-      <a className="no-underline ba b--light-blue near-white bg-animate bg-black-20 hover-bg-gray inline-flex items-center ma2 tc br2 pa2" href="https://github.com/almaguer1986/dreamingofcrypto" title="GitHub">
+      <a rel="noopener noreferrer" target="_blank" className="no-underline ba b--light-blue near-white bg-animate bg-black-20 hover-bg-gray inline-flex items-center ma2 tc br2 pa2" href="https://github.com/almaguer1986/dreamingofcrypto" title="GitHub">
 
         <span className="f6 p2">
           GitHub
         </span>
       </a>
 
-      <a className="no-underline ba b--light-blue near-white bg-animate bg-black-20 hover-bg-gray inline-flex items-center ma2 tc br2 pa2" href="https://youtube.com" title="youtube">
+      <a rel="noopener noreferrer" target="_blank" className="no-underline ba b--light-blue near-white bg-animate bg-black-20 hover-bg-gray inline-flex items-center ma2 tc br2 pa2" href="https://youtube.com" title="youtube">
 
         <span className="f6 p2">
           Youtube
         </span>
       </a>
 
-      <a className="no-underline ba b--light-blue near-white bg-animate bg-black-20 hover-bg-gray inline-flex items-center ma2 tc br2 pa2" href="https://twitter.com/DreamOfCrypto" title="Twitter">
+      <a rel="noopener noreferrer" target="_blank" className="no-underline ba b--light-blue near-white bg-animate bg-black-20 hover-bg-gray inline-flex items-center ma2 tc br2 pa2" href="https://twitter.com/DreamOfCrypto" title="Twitter">
         <span className="f6 p2">
           Twitter
         </span>
