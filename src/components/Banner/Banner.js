@@ -11,7 +11,7 @@ const Banner = () => {
               ***Featured Projects****
             </h2>
             <p className="white measure lh-copy mv0">
-              Take a look at our favorite projects and see what they are all about.
+              Take a look at my favorite projects and see what they are all about.
             </p>
             <p className="white measure lh-copy mv0">
               Get up to speed on updates, highlights and partnerships!

@@ -13,28 +13,28 @@ const Storm = () => {
 
 
     <div className="pa3 white">
-      <p className="f6 f5-ns lh-copy measure">
+      <p className="f5 f4-m f4-l lh-copy measure">
         Storm play is an app where you can complete micro tasks in exchange for bolts. You can convert your bolts 3 different ways; Bitcoin, Ethereum or Storm Tokens. The Storm token payout comes with a 20% bonus and you can have your storm tokens directly deposited into your Binance exchange account found under your storm deposit address! No binance account No problem. Have them directly deposited into your Etherwallet address.
       </p>
-      <p className="f6 f5-ns lh-copy measure">
+      <p className="f5 f4-m f4-l lh-copy measure">
         The micro tasks I have earned bolts with range from downloading and playing games to Signing up for subscriptions. You can also collect some bolts every 30 minutes. The app is not perfect and does have issues with payouts from time to time.
       </p>
 
-      <p className="f6 f5-ns lh-copy tl measure">
+      <p className="f5 f4-m f4-l lh-copy tl measure">
         Current Price :
         <a className="link theme dim underline pl1" rel="noopener noreferrer" target="_blank" href="https://coinmarketcap.com/currencies/storm/">Found Here</a>
       </p>
-      <p className="f6 f5-ns lh-copy tl measure">
+      <p className="f5 f4-m f4-l lh-copy tl measure">
         Exchanges : Binance, Upbit, HitBTC
       </p>
-      <p className="f6 f5-ns lh-copy tl measure">
+      <p className="f5 f4-m f4-l lh-copy tl measure">
         Android -
         <a className="link theme dim underline pl1" rel="noopener noreferrer" target="_blank" href="https://goo.gl/U4c1GJ">Download Storm Play Android</a>
       </p>
-      <p className="f6 f5-ns lh-copy tl measure">
+      <p className="f5 f4-m f4-l lh-copy tl measure">
         ios - <span className="silver">In Development</span>
       </p>
-      <h3 className="f4 light-green">Your support is greatly appreciated please use reference code below</h3>
+      <h3 className="f4 light-green">Your support is appreciated please use reference code below</h3>
       <h1 className="f4 bg-black-20 yellow mv0 pv2 ph3 tracked-mega">
         TTWISY
       </h1>

@@ -13,28 +13,28 @@ const Sweatcoin = () => {
 
 
     <div className="pa3">
-      <p className="f6 f5-ns lh-copy measure white">
+      <p className="f5 f4-m f4-l lh-copy measure white">
         Sweatcoin is the App that rewards you with sweatcoins for walking. The sweatcoins can currently be exchanged for sponsored goods and services. It should be noted that while this isn't a cryptocurrency today, the founders have announced that they are "hastily" working towards creating a blockchain.
       </p>
-      <p className="f6 f5-ns lh-copy measure white">
+      <p className="f5 f4-m f4-l lh-copy measure white">
         There is no solid information on how the blockchain creation will integrate with the existing sweatcoins that have already been earned. I listed the app on here because it has a promising future if the team is able to deliver. I speculate that at minumum, you will be able to convert your existing sweatcoins into the new sweatcoin crypto.
       </p>
 
-      <p className="f6 f5-ns lh-copy tl measure white">
+      <p className="f5 f4-m f4-l lh-copy tl measure white">
         Current Price : N/A
       </p>
-      <p className="f6 f5-ns lh-copy tl measure white">
+      <p className="f5 f4-m f4-l lh-copy tl measure white">
         Exchanges : N/A
       </p>
-      <p className="f6 f5-ns lh-copy tl measure white">
+      <p className="f5 f4-m f4-l lh-copy tl measure white">
         Android -
         <a className="link theme dim underline pl1" rel="noopener noreferrer" target="_blank" href="https://sweatco.in/hi/arturo172183">Download Sweatcoin for Android</a>
       </p>
-      <p className="f6 f5-ns lh-copy tl measure white">
+      <p className="f5 f4-m f4-l lh-copy tl measure white">
         ios -
         <a className="link theme dim underline pl1" rel="noopener noreferrer" target="_blank" href="https://sweatco.in/hi/arturo172183">Download Sweatcoin for ios</a>
       </p>
-      <h3 className="f4 light-green">Your support is greatly appreciated</h3>
+      <h3 className="f4 light-green">Your support is appreciated</h3>
       <h1 className="f4 bg-black-20 yellow mv0 pv2 ph3 tracked-mega">
         Download From Links Above
       </h1>

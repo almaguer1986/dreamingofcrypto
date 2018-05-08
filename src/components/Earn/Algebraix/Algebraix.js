@@ -13,25 +13,26 @@ const Algebraix = () => {
 
 
     <div className="pa3 white">
-      <p className="f6 f5-ns lh-copy measure">
+      <p className="f5 f4-m f4-l lh-copy measure">
         Algebraix is on a mission to end Data exploitation! The app lets you earn ALX tokens by watching videos. I find the content refreshing and entertaining.
       </p>
-      <p className="f6 f5-ns lh-copy measure">
+      <p className="f5 f4-m f4-l lh-copy measure">
          The app is in phase II beta and tokens currently have no value but may have value in the future. You need to have a gmail address that is used in google play store to participate in the beta.
       </p>
 
-      <p className="f6 f5-ns lh-copy tl measure">
+      <p className="f5 f4-m f4-l lh-copy tl measure">
         Current Price : N/A
       </p>
-      <p className="f6 f5-ns lh-copy tl measure">
+      <p className="f5 f4-m f4-l lh-copy tl measure">
         Exchanges : N/A
       </p>
-      <p className="f6 f5-ns lh-copy tl measure">
+      <p className="f5 f4-m f4-l lh-copy tl measure">
         Android -
-        <a className="link theme dim underline pl1" rel="noopener noreferrer" target="_blank" href="https://algebraix.io/beta/">ALX Beta Phase II Download</a>
+        <a className="link theme dim underline pl1" rel="noopener noreferrer" target="_blank" href="https://algebraix.io/beta/">ALX Beta Download</a>
       </p>
-      <p className="f6 f5-ns lh-copy tl measure">
-        ios - <span className="silver">In Development</span>
+      <p className="f5 f4-m f4-l lh-copy tl measure">
+        ios - (U.S Only)
+        <a className="link theme dim underline pl1" rel="noopener noreferrer" target="_blank" href="https://algebraix.io/beta/">ALX Beta Download</a>
       </p>
     </div>
   </article>)

@@ -15,7 +15,7 @@ const Article = (props) => {
   return (<article className="dib">
     <header className="fn fl-ns w-100">
       <h2 className="f3 white lh-title pa2">
-        This is a guide to get you started with a MEW (MyEtherWallet), MetaMask and the Enjin mobile Wallet App. With your newly acquired wallet, you will be one step closer to being able to participate in airdrops!
+        This is a guide to get you started with a MEW (MyEtherWallet), MetaMask and the Enjin mobile Wallet App. With your newly acquired wallet, you will be able to send, receive and store digital assets. You can start earning crypto with apps found in the earn section. Wallets also allow you to participate in airdrops. Airdrops are where you can earn crypto but completing tasks. 
       </h2>
       <time className="f6 ttu tracked gray">
         April 2018

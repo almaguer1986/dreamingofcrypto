@@ -3,7 +3,8 @@ import './Cards.css';
 
 const Cards = () => {
   return (<div>
-    <h1 className="f3 f1-m f-headline-l theme mb4">The Different Types of Crypto</h1>
+    <h1 className="f3 f1-m f-headline-l theme mb1 measure">Digital Assets</h1>
+    <p className="f3 white mb4 mt0 pt0">Digital assets typically fall under one or more of the categories below</p>
     <div className="flex-l w-100">
 
       <article className="mw5 center br3 pa4  mv3 ba b--light-blue bg-black-20">
@@ -15,8 +16,8 @@ const Cards = () => {
         <hr className="mw5 bb bw1 b--white-50"/>
         <p className="lh-copy measure center f5 pt1 white tl">
           <ul>
-            <li>Backed by outside assets</li>
-            <li>Ability to be issued as a share of a blockchain company, similar to a stock</li>
+            <li className="pb3">Backed by outside assets</li>
+            <li className="pb3">Ability to be issued as a share of a blockchain company, similar to a stock</li>
             <li>Abides by federal securities regulations</li>
           </ul>
         </p>
@@ -31,8 +32,8 @@ const Cards = () => {
         <hr className="mw5 bb bw1 b--white-50"/>
         <p className="lh-copy measure center f5 pt1 white tl">
           <ul>
-            <li>Access to a product or service</li>
-            <li>Not designed to be an investment, value can go up</li>
+            <li className="pb3">Access to a product or service</li>
+            <li className="pb3">Not designed to be an investment, value can go up</li>
             <li>No rights to company assets</li>
           </ul>
         </p>
@@ -48,8 +49,8 @@ const Cards = () => {
         <hr className="mw5 bb bw1 b--white-50"/>
         <p className="lh-copy measure center f5 pt1 white tl">
           <ul>
-            <li>Complete blockchain technology that has its own unique set of rules</li>
-            <li>Creation of new technologies and products are built using platforms</li>
+            <li className="pb3">Complete blockchain technology that has its own unique set of rules</li>
+            <li className="pb3">Creation of new technologies and products are built using platforms</li>
             <li>Provides opportunity for developers</li>
           </ul>
         </p>
@@ -64,8 +65,8 @@ const Cards = () => {
         <hr className="mw5 bb bw1 b--white-50"/>
         <p className="lh-copy measure center f5 pt1 white tl">
           <ul>
-            <li>Owner of wallet is unknown, remaining anonymous</li>
-            <li>Transactions are still publicly broadcasted</li>
+            <li className="pb3">Owner of wallet is unknown, remaining anonymous</li>
+            <li className="pb3">Transactions are still publicly broadcasted</li>
             <li>Capable of Obfuscation</li>
           </ul>
         </p>

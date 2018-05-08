@@ -14,7 +14,7 @@ const Timeline = () => {
     </header>
     <div className="fn fl-ns w-50-ns">
       <p className="lh-copy measure mt4 f3 white mt0-ns">
-        The beginings of bitcoin date back to January 2009. The technology and principles used to create bitcoin has been around since 1980's. Satoshi Nakamoto was the one who connected the dots.</p>
+        The beginings of bitcoin date back to late 2008. Satoshi Nakamoto made the bitcoin whitepaper public. The white paper provided the solution to the double-spending problem and the blockchain was born.</p>
         <p className="lh-copy measure mt4 f3 white mt0-ns">When the bitcoin network became a reality, Satoshi was able to mine the first block of bitcoin which had a reward of 50 bitcoins. The first block mined is known as the genessis block and comes with a message that was left inside of the blocks arbitrary data,
           <blockquote className="athelas">
             <p className="f5 f4-m f3-l lh-copy measure mt0 theme i">
@@ -23,7 +23,7 @@ const Timeline = () => {
           </blockquote>
         </p>
         <p className="lh-copy measure mt4 f3 white mt0-ns">The message serves two purposes, the first serves as a timestamp to prove when the first block was mined and the second being that the bank bailouts were cause for creation.</p>
-          <p className="lh-copy measure mt4 f3 white mt0-ns">No one has ever seen Satoshi in person, Satoshi only existed in the digital world and left the world his creation, bitcoin.</p>
+          <p className="lh-copy measure mt4 f3 white mt0-ns">No one has ever seen Satoshi in person, Satoshi only existed in the digital world and left the world with bitcoin.</p>
 
       <p className="lh-copy measure pt1 f3 white">
         Satoshi was able to coordinate with Gavin Andresen and Jeff Garzik to help develop and maintain the source code.
@@ -37,7 +37,7 @@ const Timeline = () => {
           </cite>
         </blockquote>
       </p>
-      <p className="lh-copy measure mt4 f3 white pt3">You can see Satoshi's last update to Bitcoin (0.3.19)<a className="dim theme link underline" rel="noopener noreferrer" target="_blank" href="https://sourceforge.net/p/bitcoin/mailman/message/26744510/">Here</a></p>
+      <p className="lh-copy measure mt4 f3 white pt3">You can see Satoshi's last update to Bitcoin (0.3.19) <a className="dim theme link underline" rel="noopener noreferrer" target="_blank" href="https://sourceforge.net/p/bitcoin/mailman/message/26744510/">Here</a></p>
       <p className="lh-copy measure f3 white mt0 pt0">You can find Satoshi's bitcoin talk profile <a className="dim theme link underline" rel="noopener noreferrer" target="_blank" href="https://bitcointalk.org/index.php?action=profile;u=3">Here</a></p>
     </div>
   </article>)
