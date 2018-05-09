@@ -1,5 +1,5 @@
 import React from 'react';
-import bitcoin from '../../../../images/bitcoin.png';
+import blockchain from '../../../../images/blockchain.png';
 
 const Blockchain = () => {
   return (
@@ -9,9 +9,9 @@ const Blockchain = () => {
           Blockchain Technology
         </h1>
         <time className="f5 ttu tracked gray">
-          Modern Breakthrough
+          What is it?
         </time>
-        <img src={bitcoin} alt="bitcoin" className="vh-75 db center pt5"/>
+        <img src={blockchain} alt="bitcoin" className="vh-50 db center pt5"/>
       </header>
       <div className="fn fl-ns w-50-ns">
         <p className="lh-copy measure mt4 f3 white mt0-ns">Coming Soon...</p>

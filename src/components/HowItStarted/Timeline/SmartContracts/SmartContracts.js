@@ -1,5 +1,5 @@
 import React from 'react';
-import bitcoin from '../../../../images/bitcoin.png';
+import ethereum from '../../../../images/ethereum.png';
 
 const SmartContracts = () => {
   return (
@@ -11,7 +11,7 @@ const SmartContracts = () => {
         <time className="f5 ttu tracked gray">
           Creating digital trust
         </time>
-        <img src={bitcoin} alt="bitcoin" className="vh-75 db center pt5"/>
+        <img src={ethereum} alt="bitcoin" className="vh-50 db center pt5"/>
       </header>
       <div className="fn fl-ns w-50-ns">
         <p className="lh-copy measure mt4 f3 white mt0-ns">Coming Soon...</p>
