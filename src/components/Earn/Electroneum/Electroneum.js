@@ -17,7 +17,7 @@ const Electroneum = () => {
         Electroneum - the mobile cryptocurrency. The app they have released allows for simulated mobile crypto mining. Your phone will not be actually mining and you will be rewarded with ETN tokens by participating. Simply run the miner anytime you want to start collecting.
       </p>
       <p className="f5 f4-m f4-l lh-copy measure white">
-        The app is currently in beta phase and does come with some issues that are being worked on. The main issue being that you cannot withdrawl your ETN, it currently shows an accumulated value that will be paid out once the issue is resolved. Your miner will also periodically stop from time to time, at this point you will need to reset it simply by following on screen prompts to get back to mining
+        The app has a limited number of ETN's which will be awarded. I typically earn around 10 ETN a day on a S7 phone. The app occasionally stops at which point you will need to restart the miner. The app automatically deposits the ETN you have mined to your wallet. The number of users is gaining quickly, it is essentially free money. 
       </p>
 
       <p className="f5 f4-m f4-l lh-copy tl measure white">

@@ -1,0 +1,64 @@
+.Card {
+  margin-top: 16rem;
+  width: 300px;
+  height: 450px;
+  position: relative;
+  top: 75%;
+  left: 50%;
+  background: #fff;
+  transform-style: preserve-3d;
+  transform: translate(-50%, -50%) perspective(2000px);
+  box-shadow: inset 300px 0 50px rgba(0,0,0,.5), 0 20px 100px rgba(0,0,0,.5);
+  transition: 1s;
+}
+
+.Card:hover {
+  transform: translate(-50%, -50%) perspective(2000px) rotate(-5deg);
+  box-shadow: inset 20px 0 50px rgba(0,0,0,.5), 0 10px 100px rgba(0,0,0,.5);
+}
+
+.Card:before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: #475b02;
+  transform-origin: bottom;
+  transform: skewX(-45deg);
+}
+
+.Card:after{
+  content:'';
+  position: absolute;
+  top: 0;
+  right: -5px;
+  width: 5px;
+  height: 100%;
+  background: #475b02;
+  transform-origin: left;
+  transform: skewY(-45deg);
+}
+
+.Card .ImageBox {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-origin: left;
+  transition: 1s;
+  z-index: 1;
+}
+
+.Card:hover .ImageBox {
+  transform: rotateY(-135deg);
+}
+
+.Card .Details{
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 20px;
+  z-index: -1;
+}
